@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+input {
+    font-weight: 700;
+    background-color:#141d9b;
+    border-radius: 20px;
+    font-size: 1.1em;
+    color: white;
+}
+input:hover {
+    background-color: #14173c;
+}
+span {
+    font-weight: 800;
+}
+h2 {
+    width: fit-content;
+    padding: 5px;
+}
+header > h1 {
+    margin: 1% 18%;
+}
+header > img {
+    width: fit-content;
+}
+select {
+    font-size: 1.5em;
+    margin: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.474);
+    color: #6b6a69;
+    border-radius: 2px;
+}
+main {
+    margin: 0% 24%;
+    width: fit-content;
+    display: inline; 
+
+}
+div.caixa_input{
+    position: relative;
+    width: fit-content;
+    height: 110px;
+    background-color: #D8D6D5;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 25px;
+    border-color: darkgrey;
+    border-radius: 5px;
+}
+div.caixa_input > h2 {
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+div.caixa_output {
+    position: relative;
+    width: 600px;
+    height: 110px;
+    background-color: #D8D6D5;
+    padding: 20px;
+    margin:1% 24% ;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    text-align: justify;
+    
+}
+hr {
+    height: 3px;
+    background-color:#151faa ;
+}
