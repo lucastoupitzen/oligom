@@ -30,8 +30,8 @@ function rodar() {
         var teor_endurecedor = dados_endurecedor.valores[memoria_endurecedor]
         var operação = (teor_endurecedor/teor_resina)*100
         if (isNaN(operação) === false) {
-            document.getElementById("resultado").innerHTML = 'A proporção é de 100 partes de ' + resina.value + " para " + Math.round(operação) + " partes do endurecedor " + endurecedor.value;
+            document.getElementById("resultado").innerHTML = `A proporção é de 100 partes de  ${resina.value}  para  ${operação.toFixed(2)}  partes do endurecedor  ${endurecedor.value}`;
         } 
-        else document.getElementById("resultado").innerHTML = ''
+        else document.getElementById("resultado").innerHTML = 'Selecione seus materiais'
     }
 }
