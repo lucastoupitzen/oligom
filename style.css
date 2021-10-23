@@ -27,8 +27,7 @@ header > h1 {
     max-width: 80%;
 }
 header > img {
-    max-width: 400px;
-    min-width: 200px;
+    max-width: 50%;
 }
 select {
     font-size: 1.5em;
